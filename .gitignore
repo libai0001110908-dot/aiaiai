@@ -1,0 +1,43 @@
+# CodeBuddy / 工作区内部文件
+.workbuddy/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.eggs/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 数据与模型（大文件，按需取消注释）
+# 05-数据集/*
+# !05-数据集/.gitkeep
+# 06-模型/*
+# !06-模型/.gitkeep
+
+# 环境变量与密钥
+.env
+.env.local
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
